@@ -1,4 +1,4 @@
-package e2;
+package a01a.e2;
 
 public class LogicsImpl implements Logics {
 	private final Pair<Integer, Integer> pawn;

@@ -1,6 +1,6 @@
 # Exercise 2 Description
 Consider the above [program](#program-description),
- which is already working ([`Main`](./Main.java) should launch the described program)
+ which is already working ([`Main`](Main.java) should launch the described program)
  and is implemented with a GUI class
  and interface/implementation for the logic.
  The purpose of the exercise is to refactor only the **logic** part of the project

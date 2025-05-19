@@ -1,4 +1,4 @@
-package e2;
+package a01a.e2;
 import org.junit.jupiter.api.*;
 
 public class LogicTest {

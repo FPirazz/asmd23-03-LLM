@@ -1,15 +1,15 @@
-package e2;
+package a03a.e2.GPT;
 
 /*
  * A standard generic Pair<X,Y>, with getters, hashCode, equals, and toString well implemented. 
  */
 
-public class Pair<X,Y> {
+public class PairGPT<X,Y> {
 	
 	private final X x;
 	private final Y y;
 	
-	public Pair(X x, Y y) {
+	public PairGPT(X x, Y y) {
 		super();
 		this.x = x;
 		this.y = y;
@@ -41,7 +41,7 @@ public class Pair<X,Y> {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Pair other = (Pair) obj;
+		PairGPT other = (PairGPT) obj;
 		if (x == null) {
 			if (other.x != null)
 				return false;
@@ -59,5 +59,7 @@ public class Pair<X,Y> {
 	public String toString() {
 		return "Pair [x=" + x + ", y=" + y + "]";
 	}
+	
+	
 
 }
